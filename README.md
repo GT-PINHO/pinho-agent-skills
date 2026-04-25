@@ -43,25 +43,6 @@ Skills become invokable as `/pinho-skills:<skill-name>` in any Claude Code sessi
 
 The growth-ops cluster is the differentiator — auction reading order with kill/scale rules, real unit-economics computation (LTV/CAC + payback), tracking audit with CAPI/dedup, message-match-first CRO, and a router that picks the lead specialist by dominant bottleneck.
 
-## How this differs from `vercel-labs/skills`
-
-[`vercel-labs/skills`](https://github.com/vercel-labs/skills) is the open-source CLI for managing skills across 45+ agents. It is **infrastructure**: a package manager. `pinho-skills` is a **curated, opinionated hub of working skills** with a built-in proof system.
-
-| Dimension | `vercel-labs/skills` | `pinho-skills` |
-| --- | --- | --- |
-| Scope | infrastructure (CLI + registry) | curated skills + Claude Code plugin |
-| Skill discovery | `npx skills find` (keyword search) | conversational `/pinho-skills:skill-finder` (project-aware: scans stack + product + dor before recommending) |
-| Install UX | one-shot CLI | confirmation-gated, per-skill, with preview of remote `SKILL.md` before any write |
-| Capability matrix | not stated | explicit "what I can / cannot do" inside `skill-finder` |
-| Posture | neutral / agnostic | recommends external skills first; this hub only when it genuinely beats external options |
-| Source citation | implicit | every recommendation cites URL + trust level (`docs/SOURCES.md`) |
-| Validation of skills | none at install time | Quality Gate rejects malformed `SKILL.md` at build time |
-| Output format compliance | not enforced | static eval grades expected output against `SKILL.md` `Output format` section |
-| Live grading | none | `npm run evals:live` calls Claude API and grades the actual model output |
-| Multi-agent | 45+ agents | Claude Code only (deliberate scope) |
-
-**Where Vercel still wins:** multi-agent compatibility, hosted registry (`skills.sh`), brand distribution. Those are different products. `skill-finder` uses `npx skills find` as a backend when available.
-
 ## Auto-routing model selection
 
 `token-discipline` ships a size→model rule:

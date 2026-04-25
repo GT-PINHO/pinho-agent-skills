@@ -47,7 +47,7 @@ name: pinho-skills (this hub)
 url: ./skills/INDEX.md
 kind: local
 trusted: true
-why: This plugin's own catalog. Recommended only when it genuinely beats external options for the user's project.
+why: This plugin's own catalog. Recommended when it directly matches the user's stated goal and stack.
 ```
 
 ```
