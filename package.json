@@ -1,0 +1,16 @@
+{
+  "name": "pinho-public-skills",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Public Agent Skills hub (anti-guessing, evidence-based).",
+  "scripts": {
+    "quality": "node scripts/quality-gate.mjs",
+    "evals": "node scripts/run-evals.mjs",
+    "evals:live": "node scripts/run-evals.mjs --mode live",
+    "evals:judge": "node scripts/run-evals.mjs --mode judge"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

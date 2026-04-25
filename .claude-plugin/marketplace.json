@@ -1,0 +1,22 @@
+{
+  "name": "pinho-skills",
+  "owner": {
+    "name": "David Pinho"
+  },
+  "plugins": [
+    {
+      "name": "pinho-skills",
+      "source": "./",
+      "description": "Anti-guessing, evidence-based agent skills hub for Claude Code.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": [
+        "agent-skills",
+        "anti-sycophancy",
+        "token-discipline",
+        "growth",
+        "developer-tools"
+      ]
+    }
+  ]
+}

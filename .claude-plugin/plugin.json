@@ -1,0 +1,20 @@
+{
+  "name": "pinho-skills",
+  "version": "0.1.0",
+  "description": "Anti-guessing, evidence-based agent skills hub: token discipline, anti-sycophancy, growth ops (paid-media, tracker, profit, LP), dev navigation, and project memory. What it promises, it delivers.",
+  "author": {
+    "name": "David Pinho"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-code",
+    "agent-skills",
+    "anti-sycophancy",
+    "token-discipline",
+    "growth",
+    "marketing",
+    "paid-media",
+    "cro",
+    "developer-tools"
+  ]
+}
