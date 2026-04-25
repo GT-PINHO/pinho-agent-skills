@@ -127,7 +127,7 @@ When multiple candidates match, rank by:
 
 Tie-break: prefer the **smaller, more focused skill** over a large one that
 "also covers" the use case. A skill that does one thing and ships an example
-beats a skill that promises ten things and ships none.
+is preferred over a skill that promises ten things and ships none.
 
 ## Conversation protocol
 
